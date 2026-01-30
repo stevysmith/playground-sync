@@ -1,0 +1,33 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "playground-sync",
+  "description": "Interactive HTML playgrounds with live sync to Claude Code. Generate visual explorers, tweak controls, and send prompts directly to Claude.",
+  "owner": {
+    "name": "Steve Smith",
+    "email": "steve@yume.co"
+  },
+  "plugins": [
+    {
+      "name": "playground-skill",
+      "description": "Creates interactive HTML playgrounds — self-contained single-file explorers with visual controls, live preview, and prompt output. Includes templates for design playgrounds, data explorers, concept maps, document critique, diff review, and code maps.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steve Smith",
+        "email": "steve@yume.co"
+      },
+      "source": "./plugins/playground-skill",
+      "category": "development"
+    },
+    {
+      "name": "playground-sync",
+      "description": "Transport server that receives prompts from playground HTML files and delivers them to Claude via MCP. Includes a watch mode that blocks until the user sends a prompt, and a burst mode for hands-free processing.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steve Smith",
+        "email": "steve@yume.co"
+      },
+      "source": "./plugins/playground-sync",
+      "category": "development"
+    }
+  ]
+}

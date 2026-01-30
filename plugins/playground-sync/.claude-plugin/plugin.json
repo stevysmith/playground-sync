@@ -1,0 +1,8 @@
+{
+  "name": "playground-sync",
+  "description": "Transport server that receives prompts from playground HTML files and exposes them to Claude via MCP tools. Supports burst mode for hands-free processing.",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  }
+}
